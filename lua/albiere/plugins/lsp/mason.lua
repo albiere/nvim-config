@@ -23,6 +23,7 @@ mason_lspconfig.setup({
 		"tailwindcss",
 		"lua_ls",
 		"elixirls",
+		"solargraph",
 	},
 	automatic_installation = true,
 })
@@ -32,6 +33,7 @@ mason_null_ls.setup({
 		"prettier",
 		"stylua",
 		"eslint_d",
+		"rubocop",
 	},
 	automatic_installation = true,
 })

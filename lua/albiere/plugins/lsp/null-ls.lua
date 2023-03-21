@@ -14,6 +14,7 @@ null_ls.setup({
 	sources = {
 		formatting.prettier,
 		formatting.stylua,
+		formatting.rubocop,
 		diagnostics.eslint_d.with({
 			-- only enable eslint if root has .eslintrc.js
 			condition = function(utils)
