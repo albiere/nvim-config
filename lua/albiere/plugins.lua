@@ -89,6 +89,7 @@ return packer.startup(function(use)
 
 	-- configuring LSP servers
 	use("neovim/nvim-lspconfig")
+	use({ "folke/trouble.nvim", requires = "nvim-tree/nvim-web-devicons" })
 	use("hrsh7th/cmp-nvim-lsp")
 	use({
 		"glepnir/lspsaga.nvim",
